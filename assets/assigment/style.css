@@ -1,11 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.azeret-mono-normal{
+.azeret-mono-regular {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
+    font-weight: 800;
     font-style: normal;
-  }
+}
 /*header*/
 
 .header-container{
@@ -71,4 +72,174 @@
     width: 244px;
     height: 65px;
     margin-top: 20px;
+}
+
+/*work*/
+.main-container{
+    width: 1140px;
+    height: 1393px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.work-header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.work-header h1{
+    color:#0D1321;
+    font-weight: 800;
+    opacity: 100%;
+    font-size: 50px;
+    padding-top: 50px;
+    
+}
+.work-header p{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.work-container{
+    margin-top: 100px;
+}
+
+.work-box-1{
+    display: flex;
+    justify-content:space-around;
+}
+.work-box-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.work-box-3{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+/*inspiration*/
+.main-container-2{
+    width: 1140px;
+    height: 775px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.Inspiration{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+.Inspiration h1{
+    color: #0D1321;
+    font-weight: 800;
+    opacity: 100%;
+    font-family: azeret-mono;
+    padding-top: 50px;
+}
+.Inspiration p{
+    color: #0D1321;
+    opacity: 70%;
+    font-weight: regular;
+    font-size: 20px;
+    margin-bottom: 20px;
+    bottom: auto;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*target*/
+.target{
+    text-align: center;
+}
+.target h1{
+    color: #0D1321;
+    font-weight: 800;
+    opacity: 100%;
+    padding-top: 50px;
+}
+.target p{
+    color: #0D1321;
+    font-weight: regular;
+    font-size: 20px;
+    margin-bottom: 20px;
+    bottom: auto;
+}
+.target-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.target-box-1{
+    background-color: #FF651E;
+    width: 284px;
+    height: 219px;
+    border: #FFFFFF;
+    border-radius: 5px;
+    opacity: 100%;
+    padding-top: 10px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.target-box-2{
+    background-color: #EBEBEB;
+    width: 284px;
+    height: 219px;
+    border: #FFFFFF;
+    border-radius: 5px;
+    opacity: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.target-box-3{
+    background-color: #FFDF00;
+    width: 284px;
+    height: 219px;
+    border: #FFFFFF;
+    border-radius: 5px;
+    opacity: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.learn-btn-1{
+    text-decoration: none;
+    display: inline-block;
+    color: #0D1321;
+    font-weight: bold;
+    opacity: 100%;
+}
+.learn-btn-2{
+    text-decoration: none;
+    display: inline-block;
+    color: #0D1321;
+    font-weight: bold;
+    opacity: 100%;
+}
+.learn-btn-3{
+    text-decoration: none;
+    display: inline-block;
+    color: #0D1321;
+    font-weight: bold;
+    opacity: 100%;
 }
