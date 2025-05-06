@@ -299,6 +299,7 @@
     color: #0D1321;
     font-weight: bold;
     opacity: 100%;
+    background: none;
 }
 .n-js{
     display: flex;
@@ -331,6 +332,7 @@
     color: #0D1321;
     font-weight: bold;
     opacity: 100%;
+    background: none;
 }
 .m-db{
     display: flex;
@@ -363,4 +365,37 @@
     color: #0D1321;
     font-weight: bold;
     opacity: 100%;
+    background: none;
+}
+
+/*contact*/
+.contact-me{
+    background-image: url(photo/image/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 1140px;
+    height: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+.contact-me h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    opacity: 100%;
+    margin-top: 160px;
+}
+.contact-me p{
+    color: #FFFFFF;
+    font-weight: regular;
+    opacity: 70%;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
